@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Switch translate</title>
+</head>
+
+<body>
+    <div>
+	<form action='#'  method='post'>
+	    <textarea name="text"'>Enter text here</textarea>
+	    <button type="submit">Give me correct text</button>
+	</form>
+    </div>
+
+</body>
+
+</html>

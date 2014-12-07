@@ -1,0 +1,1 @@
+sass --watch mybudget/static/styles/sass:mybudget/static/styles/css  

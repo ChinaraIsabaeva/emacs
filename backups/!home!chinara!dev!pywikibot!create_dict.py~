@@ -1,0 +1,21 @@
+#!/usr/local/bin/python
+
+file_1 = '/home/chinara/Documents/ky_wiki/kyr_dict/dict_kw.txt'
+file_2 = '/home/chinara/dev/pywikibot/dict.txt'
+
+
+new_lines = []
+with open(file_1) as myfile:
+    lines = myfile.readlines()
+    for i in range(283, 303):
+        line = lines[i].split(',')
+        new_line = line[3:-6]
+        keyword = new_line[0][2:-1]
+        title = 'xxxx\n' + "'''" + keyword + "'''" + '\n'
+        new_lines.append(title)
+        second_line = ''.join(new_line[1:len(new_line)]).split('&nbsp;')
+        body = '=={{ky}}==\n' + '\n' +  '=={{ru}}==\n' + '\n'.join(second_line[1:len(second_line)]) + '\n' + '\n' + 'yyyy\n'
+        new_lines.append(body)
+
+with open(file_2, 'w') as new_file:
+    new_file.write(''.join(new_lines))

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Switch translate</title>
+    <link media="all">
+    <link rel="stylesheet" type="text/css" href="static/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="static/base.css">
+</head>
+
+<body>
+    <section class="content">
+	<div class="column">
+	    <h6>Введите сюда русскую абракадабру</h6>
+	    <form action='#'  method='post'>
+		<div class="form_block">
+		    <textarea id="input" name="text" placeholder="введите текст здесь"></textarea>
+		</div>
+		
+		<div class="form_block">
+		    <input id="button" type="button" value="Дай правильный текст">
+		</div>
+	    </form>
+	</div>
+
+	<div class="column">
+	    <h6>Результат увидите здесь</h6>
+	    <textarea id="result"></textarea>
+	</div>
+    </section>
+
+<script src="static/jquery.js"></script>
+<script src="static/script_ru.js"></script>
+
+</body>
+</html>

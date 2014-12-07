@@ -1,0 +1,5 @@
+#!/bin/bash
+# This hook is sourced after this virtualenv is activated.
+
+export DATABASE_URL=mysql://root:zyapa2011@localhost:3306/knoq_v2_staging
+export ENV=dev

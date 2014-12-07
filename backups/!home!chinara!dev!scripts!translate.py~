@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+english_letters = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/']
+russian_letters = "йцукенгшщзхъфывапролджэячсмитьбю."
+
+def change_to_russian(char):
+    index = english_letters.index(char)
+    char = russian_letters[index]
+    return char
+
+def translate(text):
+    for char in text:
+        
+new_list list(russian_letters)
+print new_list

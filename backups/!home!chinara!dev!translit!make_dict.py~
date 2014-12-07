@@ -1,0 +1,10 @@
+en = "qwertyuiop[]asdfghjkl;'zxcvbnm,./"
+
+run = "йцукенгшщзхъфывапролджэячсмитьбю."
+
+dict = {}
+
+for char in en:
+    index = en.index(char)
+    dict[char] = run[index]
+return dict
