@@ -21,8 +21,9 @@
                          ("marmalade" . "http://marmalade-repo.org/packages/")
                           ("melpa" . "http://melpa.milkbox.net/packages/")))
 
-(add-hook 'python-mode-hook 'auto-complete-mode)
-(add-hook 'python-mode-hook 'jedi:ac-setup)
+(autoload 'jedi:setup "jedi" nil t)
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (setq-default py-shell-name "ipython")
 (setq-default py-which-bufname "IPython")

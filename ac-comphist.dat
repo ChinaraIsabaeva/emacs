@@ -1,1 +1,164 @@
-(nil)
+((("step_fifteen" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("step_forteen" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("third_rotor_shift" .
+   [0 1 3 1 0 0 0 0 0 0 0 0 0 0 3 0 0])
+  ("step_tve" .
+   [1 0 0 0 0 0 0 0])
+  ("third_rotor_rotation" .
+   [0 1 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("second_rotor_shift" .
+   [1 1 4 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set" .
+   [0 0 1])
+  ("append" .
+   [0 0 1 0 0 0])
+  ("circle" .
+   [0 0 3 0 0 0])
+  ("test_second_rotor_rotate_one_letter_another_case" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("test_second_rotor_zero" .
+   [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("test_second_rotor" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("slice" .
+   [0 1 1 0 0])
+  ("second_rotor_rotation" .
+   [2 0 5 1 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0])
+  ("rotation" .
+   [15 1 0 0 0 0 0 0])
+  ("n" .
+   [12])
+  ("first_rotor_rotation" .
+   [2 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("first_rotor_shift" .
+   [3 2 4 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("first_rotor_shif" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("TestEncodingLong" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("TestEncodingSecondRotorMove" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("assertEqual" .
+   [0 0 0 0 0 1 0 2 1 1 0])
+  ("step_thirteen" .
+   [0 0 0 1 0 0 0 0 1 0 0 1 0])
+  ("return" .
+   [0 0 0 2 2 0])
+  ("RuntimeWarning" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("step_twelve" .
+   [0 0 0 1 0 0 0 1 1 0 0])
+  ("step_eleven" .
+   [0 0 0 0 1 0 1 0 1 0 0])
+  ("step_ten" .
+   [0 0 0 2 0 0 0 2])
+  ("step_nine" .
+   [2 0 0 0 0 0 0 0 1])
+  ("rotor_reversed" .
+   [0 0 0 0 0 0 0 0 2 1 0 0 0 0])
+  ("step_eight" .
+   [0 0 0 0 2 0 0 2 0 0])
+  ("step_seven" .
+   [0 0 1 1 0 0 0 0 0 1])
+  ("reverse_rotor" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("step_six" .
+   [0 0 0 1 1 0 0 0])
+  ("reflector" .
+   [0 0 0 2 0 0 0 0 0])
+  ("step_five" .
+   [0 0 0 1 0 0 0 0 0])
+  ("step_four" .
+   [0 0 0 2 0 0 0 0 0])
+  ("step_three" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("step_one" .
+   [0 0 0 0 1 0 0 0])
+  ("encoded_char" .
+   [0 0 0 1 0 0 0 0 1 0 0 0])
+  ("assertTrue" .
+   [0 0 0 0 0 0 0 3 0 0])
+  ("replacement" .
+   [0 1 0 0 1 0 0 0 0 0 0])
+  ("setUp" .
+   [1 0 0 0 0])
+  ("TestCase" .
+   [0 1 1 0 0 0 0 0])
+  ("unittest" .
+   [0 0 1 1 0 0 0 0])
+  ("step_two" .
+   [0 0 0 1 0 0 0 0])
+  ("shifting_backward" .
+   [0 2 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("shift_one" .
+   [1 0 0 0 0 0 0 0 0])
+  ("shifting_forward" .
+   [0 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0])
+  ("index" .
+   [19 0 0 1 1])
+  ("result" .
+   [7 0 0 0 1 0])
+  ("find" .
+   [1 0 1 0])
+  ("char" .
+   [11 2 0 0])
+  ("shift" .
+   [50 0 0 11 0])
+  ("alphabit" .
+   [1 1 3 0 0 0 0 0])
+  ("len" .
+   [1 1 0])
+  ("letter_init" .
+   [0 0 2 0 0 0 0 0 0 0 0])
+  ("encode" .
+   [2 0 0 0 0 0])
+  ("Enigma" .
+   [1 6 3 0 0 0])
+  ("class" .
+   [0 1 0 1 1])
+  ("object" .
+   [0 1 0 0 0 0])
+  ("self" .
+   [38 1 19 14])
+  ("rotor_one" .
+   [0 0 1 0 3 1 1 0 0])
+  ("rotor_1" .
+   [1 0 0 0 0 0 0])
+  ("rotor_two" .
+   [1 1 1 0 0 1 0 0 0])
+  ("rotor_three" .
+   [1 0 2 0 0 0 0 0 1 0 0])
+  ("assert" .
+   [0 0 0 0 1 0])
+  ("True" .
+   [0 2 0 0])
+  ("enigma" .
+   [4 0 3 0 2 0])
+  ("import" .
+   [0 2 1 0 0 0])
+  ("i" .
+   [31])
+  ("init_" .
+   [1 0 0 0 0])
+  ("params" .
+   [3 0 0 0 0 0])
+  ("string" .
+   [0 0 1 0 0 0])
+  ("text" .
+   [8 0 3 3])
+  ("rotor_init" .
+   [3 0 0 3 2 0 0 0 0 0])
+  ("encoded_text" .
+   [1 0 0 1 0 0 0 0 0 0 0 0])
+  ("cipher" .
+   [0 2 0 1 0 0])
+  ("assert_" .
+   [0 0 2 1 0 0 0])
+  ("decoded_text" .
+   [1 0 0 1 0 0 0 0 0 0 0 0])
+  ("shiting_calculation" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("shifting_calculation" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))

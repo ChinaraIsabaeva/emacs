@@ -1,21 +1,37 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 
 file_1 = '/home/chinara/Documents/ky_wiki/kyr_dict/dict_kw.txt'
-file_2 = '/home/chinara/dev/pywikibot/dict.txt'
+file_2 = '/home/chinara/dev/pywikibot/'
 
 
-new_lines = []
-with open(file_1) as myfile:
-    lines = myfile.readlines()
-    for i in range(283, 303):
-        line = lines[i].split(',')
-        new_line = line[3:-6]
-        keyword = new_line[0][2:-1]
-        title = 'xxxx\n' + "'''" + keyword + "'''" + '\n'
-        new_lines.append(title)
-        second_line = ''.join(new_line[1:len(new_line)]).split('&nbsp;')
-        body = '=={{ky}}==\n' + '\n' +  '=={{ru}}==\n' + '\n'.join(second_line[1:len(second_line)]) + '\n' + '\n' + 'yyyy\n'
-        new_lines.append(body)
+def create_dict(data, m):
+    new_lines = []
+    with open(data) as myfile:
+        lines = myfile.readlines()
+        for i in range(m, (m+100)):
+            line = lines[i].split(',')
+            new_line = line[3:-6]
+            keyword = new_line[0][2:-1]
+            title = 'xxxx\n' + "'''" + keyword + "'''" + '\n'
+            new_lines.append(title)
+            second_line = ''.join(new_line[1:len(new_line)]).split('&nbsp;')
+            body = '=={{ky}}==\n' + '\n' +  '=={{ru}}==\n' + '\n'.join(second_line[1:len(second_line)]) + '\n' + '\n' + 'yyyy\n'
+            new_lines.append(body)
+    return new_lines
 
-with open(file_2, 'w') as new_file:
-    new_file.write(''.join(new_lines))
+def write_file(lines, final_file):
+    with open(final_file, 'w') as new_file:
+        new_file.write(''.join(lines))
+    new_file.close()
+
+
+m = 12293
+for i in range(200):
+    data = create_dict(file_1, m)
+    result_file = file_2 + 'dict' + str(i) + '.txt'
+    write_file(data, result_file)
+    m += 100
+    i += 1
+
+print m
+
